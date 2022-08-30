@@ -1,0 +1,12 @@
+// define all variable overrides
+$primary : #003E7A;
+$secondary: #EBF2FA;
+
+// import all of bootstraps styles
+@import 'bootstrap';
+
+// any specific overrides here
+nav .nav-item:hover {
+  background-color: $primary;
+  color: $secondary;
+}
